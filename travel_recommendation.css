@@ -1,0 +1,128 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  body{
+    overflow: hidden;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img{
+    width:27px;
+    height:27px;
+
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hero{
+    background-image: url("back.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    height:100vh;
+    width: 100vw;
+    margin:0;
+    padding-right:200px;
+    display:flex;
+    justify-content:center;
+   overflow: hidden;
+  }
+
+  .hero-content{
+    text-align:center;
+    color:black;
+    padding:20px;
+  }
+
+  .hero-content h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .hero-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+ .copy{
+    font-size:10px;
+    padding-right: 1200px;
+    font-weight: 400;
+    color:chartreuse;
+  }
+
+  .hero-content button{
+    background-color: #333;
+    color:#fff;
+    padding:15px 30px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hero-content li{
+    padding-right:1300px;
+    color: black;
+  }
+  .hero-content i{
+    color:black;
+  }
+  .team-member{
+    border:1px solid #ccc;
+    /* padding:200px; */
+    margin:10px;
+    text-align: center;
+  }
+  .contact_class{
+        background-image: url("back.jpg");
+        background-size: cover;
+        /* background-position: center; */
+        height:100vh;
+        width: 100vw;
+        margin:0;
+        padding-right:200px;
+        display:flex;
+        justify-content:center;
+       overflow: hidden;
+      
+  }
